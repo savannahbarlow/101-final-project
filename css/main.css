@@ -1,0 +1,177 @@
+/************* BASE STYLES ***********/
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #2b2b2b;
+  width:1200px;
+  margin: 0 auto;
+}
+
+.green-font {
+  color:#77a466;
+}
+
+/********** GRID ***********/
+
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.one-third{
+	width: :300px;
+	float:left;
+}
+.two-thirds {
+  width:900px;
+  float:right;
+}
+
+
+/********** HEADER ***********/
+
+header{
+  height: 100px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 23px;
+  text-transform: uppercase;
+  padding: 38px 0;
+}
+
+header h1 span{
+  color:#77a466;
+}
+
+header nav{
+  float: right;
+  padding: 46px 0;
+}
+nav ul {
+  margin:0;
+  padding: 0;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  padding-left: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 23px;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color:#77a466;
+}
+
+
+/********** MAIN CONTENT ***********/
+
+img.hero {
+  border-top: 5px solid #77a466;
+  border-bottom: 5px solid #77a466;
+}
+
+#main-content h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color:#77a466;
+  padding-top: 30px;
+}
+
+#main-content p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+
+
+/********** SUB CONTENT ***********/
+
+#menu, #review, #contact{
+  width:365px;
+  height: 200px;
+  border-top: 1px solid #eee;
+  float:left;
+}
+
+
+#review {
+  padding: 0px 30px;
+}
+
+#review {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+#contact {
+  padding-left: 30px;
+}
+
+#sub-content h4{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 25px;
+  text-transform: uppercase;
+  padding-top:25px;
+}
+
+
+#menu ul li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 18px;
+  color:#77a466;
+  padding-top: 20px;
+}
+
+
+#review p{
+  font-size: 16px;
+  line-height: 21px;
+  padding-top: 20px;
+}
+
+#contact p{
+  font-size: 16px;
+  line-height: 25px;
+  padding-top: 20px;
+}
+
+/********** FOOTER ***********/
+
+#footer {
+  height: 50px;
+  border-top: 1px solid #eee;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  clear: both;
+  padding: 35px 0;
+}
+
+#footer span {
+  font-family: 'Wisdom Script', cursive;
+  font-weight: 400;
+  text-transform: lowercase;
+  color: #77a466;
+  font-size: 14px;
+}
